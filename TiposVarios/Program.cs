@@ -8,6 +8,8 @@ namespace TiposVarios
 
         static void Main(string[] args)
         {
+            int x = 3;
+            int y = 7;
             int a = 10;
             int b = 23;
             int c = 29;
@@ -23,6 +25,9 @@ namespace TiposVarios
             string m = "Um tab\t e um omega \u03A9";
             string n = @"isto é uma string Verbatim (Literal)";
             string o = @"Um tab\t e um omega \u03A9 em verbatim ";
+            string p = "x = ";
+            string q = "y = ";
+            string r = $"{x} mais {y}, é igual a {x+y}";
 
 
 
@@ -56,6 +61,12 @@ namespace TiposVarios
             Console.WriteLine(n);
             Console.WriteLine("");
             Console.WriteLine(o);
+            Console.WriteLine("");
+            Console.WriteLine(p + x);
+            Console.WriteLine("");
+            Console.WriteLine(q + y);
+            Console.WriteLine("");
+            Console.WriteLine(r);
 
             Console.ReadKey();
 
