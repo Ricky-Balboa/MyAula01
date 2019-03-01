@@ -67,6 +67,7 @@ namespace TiposVarios
             Console.WriteLine(q + y);
             Console.WriteLine("");
             Console.WriteLine(r);
+            Console.WriteLine("Carrega enter para fechar");
 
             Console.ReadKey();
 
