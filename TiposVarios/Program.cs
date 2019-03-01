@@ -19,6 +19,12 @@ namespace TiposVarios
             double i = 12.123;
             bool j = true;
             bool k = false;
+            string l = "isto é uma string";
+            string m = "Um tab\t e um omega \u03A9";
+            string n = @"isto é uma string Verbatim (Literal)";
+            string o = @"Um tab\t e um omega \u03A9 em verbatim ";
+
+
 
             Console.WriteLine("3 Inteiros");
             Console.WriteLine("");
@@ -42,6 +48,15 @@ namespace TiposVarios
             Console.WriteLine("");
             Console.WriteLine(j);
             Console.WriteLine(k);
+            Console.WriteLine("");
+            Console.WriteLine(l);
+            Console.WriteLine("");
+            Console.WriteLine(m);
+            Console.WriteLine("");
+            Console.WriteLine(n);
+            Console.WriteLine("");
+            Console.WriteLine(o);
+
             Console.ReadKey();
 
         }
