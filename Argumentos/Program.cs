@@ -13,7 +13,7 @@ namespace Argumentos
                 Console.WriteLine("");
                 
                 }
-            Console.ReadKey();
+            //Console.ReadKey();
             }
         }
     }
